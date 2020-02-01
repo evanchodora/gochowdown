@@ -3,14 +3,14 @@
 A theme for [Hugo](https://gohugo.io/) based on the [Chowdown](https://github.com/clarklab/chowdown) theme for Jekyll
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/seanlane/gochowdown/master/images/screenshot.png" />
+  <img src="https://raw.githubusercontent.com/evanchodora/gochowdown/master/images/screenshot.png" />
 </p>
 
 ## Quick Start
 
 0. Install Hugo with your favorite package manager, or follow their [Installation Guide](https://gohugo.io/getting-started/installing/)
     - Note that the _extended_ version of Hugo is required since this theme needs SCSS support. At the time of writing, this is the version found by installing via [HomeBrew](https://github.com/Homebrew/homebrew-core/blob/master/Formula/hugo.rb) and the [Arch User Repository](https://www.archlinux.org/packages/community/x86_64/hugo/). If that isn't the case for your package manager, then install using `$ go install --tags extended` as documented in the Hugo Install Docs.
-1. Add the repository into your Hugo Project repository as a submodule, `git submodule add https://github.com/seanlane/gochowdown.git themes/gochowdown`.
+1. Add the repository into your Hugo Project repository as a submodule, `git submodule add https://github.com/evanchodora/gochowdown.git themes/gochowdown`.
 2. Configure your `config.toml` or `config.yaml`.
 3. Build your site with `hugo serve` and see the result at `http://localhost:1313/`.
 
@@ -32,5 +32,5 @@ Similar to above, but instead of adding the recipes to the `content/recipes` dir
 
 ## License
 
-Coder is licensed under the [MIT license](https://github.com/seanlane/gochowdown/blob/master/LICENSE.md).
+Code is licensed under the [MIT license](https://github.com/evanchodora/gochowdown/blob/master/LICENSE.md).
 
