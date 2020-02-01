@@ -7,7 +7,7 @@
 <!-- call up the image and image credit link -->
   {{ with .Params.Image }}
     <div class="xs-p2">
-      <img itemprop="image" src="{{ . }}" />
+      <img itemprop="image" src="{{ . }}" style="width:50%;" class="center"/>
     </div>
   {{ else }}
     {{ range first 1 (.Resources.ByType "image") }}
