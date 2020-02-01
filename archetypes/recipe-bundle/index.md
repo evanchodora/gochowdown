@@ -2,17 +2,12 @@
 layout: recipe
 date: {{ .Date }}
 draft: true    
-title:  "{{ replace .Name "-" " " | humanize | title }}" # The title of your awesome recipe
-image: awesome-recipe-image.jpg # Name of image in recipe bundle
-imagecredit: https://placekitten.com/600/800 # URL to image source page, website, or creator
-YouTubeID:  # The F2SYDXV1W1w part of https://www.youtube.com/watch?v=F2SYDXV1W1w
-authorName: # Name of the recipe/article author
-authorURL: # URL of their home website
-sourceName: # Name of the source website
-sourceURL: # Actual URL of the recipe itself
-category: # The type of meal or course your recipe is about. For example: "dinner", "entree", or "dessert".
-cuisine: # The region associated with your recipe. For example, "French", Mediterranean", or "American".
-tags: # You don't have to have 3, feel free to have 10, 1, or none
+title:  "{{ replace .Name "-" " " | humanize | title }}" # Recipe title
+image: awesome-recipe-image.jpg # Name of recipe image
+imagecredit: https://placekitten.com/600/800 # URL to image source page
+category: # The type of meal or course your recipe is about. 
+cuisine: # The region associated with your recipe. 
+tags: 
   - tag1
   - tag2
   - tag3 
@@ -42,3 +37,7 @@ directions:
 - Transfer to a 9x13-inch baking dish and top with the remaining cheddar cheese.
 - Bake in a preheated oven for 40–45 minutes, until the top has nicely browned.
 ---
+
+### Notes:
+
+
